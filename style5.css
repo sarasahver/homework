@@ -1,0 +1,39 @@
+@import url()
+
+
+body,
+html {
+    font-family: ;
+    
+}
+.form {
+    margin: 20px;
+    width: 400px;
+    min-height: 200px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    padding: 30px;
+    background-color: azure;
+    
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+input{
+    padding: 10px 14px;
+    border-radius: 20px;
+}
+
+.input_group{
+    margin: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 14px;
+    background-color: blueviolet;
+    color: beige;
+    border: none;
+}
