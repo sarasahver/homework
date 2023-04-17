@@ -1,0 +1,38 @@
+
+/* .box{
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    border: 10px;
+    background-color: beige;
+    margin: 20px;
+}
+
+
+.card{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+} */
+
+.boxes{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: green;
+}
+
+
+.box{
+    box-shadow: 10px 10px; 
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+}

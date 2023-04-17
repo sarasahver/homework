@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <div class="Boxgroup">
+      <form class="form">
+        <div class="box1">
+            <div class="inputgroup">
+                <p><label for="email">Enter Email</label></p>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+
+            <div>
+                <p>Ship to</p>
+                <Div class="inputgroup">
+                <input type="radio" id="Ship-to" name="adress" value="ship-to">
+                <label for="Ship-to">221B Baker St., London, U.K</label>
+                </Div>
+                <Div class="inputgroup">
+                <input type="radio" id="Ship-to" name="adress" value="ship-to">
+                <label for="Ship-to">32 Windsor Gardens, London, U.K.</label>
+                </Div>
+                <Div class="inputgroup">
+                <input type="radio" id="Ship-to" name="adress" value="ship-to">
+                <label for="Ship-to">17 Cherry Tree Lane, London, U.K</label>
+                </Div>
+            </div>
+            
+            <div>
+                
+                <p>Delivery</p>
+                <div class="inputgroup">
+                    <input type="radio" id="Delivery" name="adress" value="radio">
+                    <Label for="Delivery">Standart Shipping</Label>
+                </div>
+                <div class="inputgroup">
+                     <input type="radio" id="Delivery" name="adress" value="radio">
+                     <label for="Delivery">2-Day Shipping</label>
+                </div>
+                <div class="inputgroup">
+                    <input type="radio" id="Delivery" name="adress" value="radio">
+                     <label for="Delivery">Overnight Shipping</label>
+                </div>
+            </div>
+        </div>
+     </form>
+    <form class="form">
+        <div class="box2">
+            <div class="inputgroup"><label for="Name"></label></div>
+            <input type="Name" id="Name" placeholder="Name">
+            <div class="inputgroup"><label for="Email"></label></div>
+            <input type="email" id="email" placeholder="email">
+            <div class="inputgroup"><label for="passvord"></label></div>
+            <input type="password" id="passvord" placeholder="passvord">
+           
+            <div class="inputgroup">
+            <input type="checkbox" id="check">
+            <label for="checkbox">i would like to receive a monthly newsletter</label>
+            </div>
+        </div>
+    </form>
+    <form class="form">
+        <div class="box3">
+            <div class="inputgroup"><label for="name">First name<span>*</span></label></div>
+            <input type="Name" id="Name" placeholder="Enter text">
+
+            <div class="inputgroup"><label for="name">Last name<span>*</span></label></div>
+            <input type="Name" id="Name" placeholder="Enter text">
+
+            <div class="inputgroup"><label for="Name">Company</label></div>
+            <input type="Name" id="Name" placeholder="Enter text">
+
+            <div class="inputgroup"><label for="Address">Address<span>*</span></label></div>
+            <input type="text" id="Address" placeholder="Enter text">
+
+            <div class="inputgroup"><label for="Appartment">Appartment, suit, etc.</label></div>
+            <input type="text" id="Appartment" placeholder="enter text">
+
+            <div class="inputgroup"><label for="City">City <span>*</span></label></div>
+            <input type="text" id="City" placeholder="Enter text">
+
+            <div class="inputgroup"><label for="Region">Country / Region<span>*</span> </label></div>
+            <div><select name="Region">
+                <option selected="selected">Select Country</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Russia">Russia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Iran">Iran</option>
+               </select></div>
+               
+        </div>
+    </form>
+    <form class="form">    
+        <div class="box4">
+            <div>
+            <label for="radio">one way</label>
+            <input type="radio" id="one way">
+
+            <label for="radio">raund trip</label>
+            <input type="radio" id="raund trip">
+            </div>
+
+
+            <div class="inputgroup"><label for="From">From<span>*</span> </label></div>
+            <div><select name="From">
+                <option selected="selected">Select option</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Russia">Russia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Iran">Iran</option>
+               </select></div>
+
+            <div class="inputgroup"><label for="To">To<span>*</span> </label></div>
+            <div><select name="To">
+                <option selected="selected">Select Option</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Russia">Russia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Iran">Iran</option>
+               </select></div>
+               
+               <div class="inputgroup"><label for="Departure">Departure</label></div>
+               <input type="datetime" id="Departure" placeholder="mm/dd/yyyy">
+   
+               <div class="inputgroup"><label for="name">Last name</label></div>
+               <input type="datetime" id="Name" placeholder="mm/dd/yyyy">
+   
+
+        </div>
+    </form>
+  </div>
+
+</body>
+</html>

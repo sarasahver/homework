@@ -1,7 +1,14 @@
-@import url()
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 
-body,
+
+
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
 html {
     font-family: ;
     
