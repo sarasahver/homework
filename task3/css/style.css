@@ -6,12 +6,12 @@
 }
 
 .form{
-    display:inline-block;
+    display:inline-flex
  
 }
 
 .box1{
-    display: inline-block;
+    display: flex
 width: 250px;
 height: 400px;
 border: 10px solid rgb(243, 243, 111);

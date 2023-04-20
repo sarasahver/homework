@@ -1,0 +1,59 @@
+/* h2, h4{
+    text-align: center;
+} */
+p{
+    font-size: 12px;
+    /* text-align: center; */
+}
+
+body{
+    font-size: 70%;
+    fo
+}
+.conteyner{
+   background-color: rgb(207, 192, 192);
+   height: 100vh;
+   position: relative;
+}
+
+.box{
+  
+    margin-top: 25vh;
+    margin-left: 38%;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    border: solid 70px white;
+
+}
+
+.circuraler1{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 50%;
+   position: relative;
+    top: 100px;
+    left: 320px;
+}
+
+.circuraler2{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    border-radius: 50%;
+   position: relative;
+   margin: 20px 55%;
+    
+}
+
+button{
+    background-color: rgb(194, 80, 99);
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
